@@ -6,7 +6,6 @@ const vehicleTableBody = document.getElementById('vehicleTableBody');
 let map;
 let marker;
 
-// Dados armazenados localmente
 let vehicleData = JSON.parse(localStorage.getItem('vehicleData')) || [];
 
 
